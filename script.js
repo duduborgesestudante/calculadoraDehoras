@@ -12,6 +12,12 @@ function soma(){
         somaMin -=60
         somaHora++
     }
+    if(somaHora <10 ){
+        somaHora ="0" + somaHora 
+    }
+    if(somaMin <10 ){
+        somaMin ="0" + somaHora 
+    }
    
 
 }
